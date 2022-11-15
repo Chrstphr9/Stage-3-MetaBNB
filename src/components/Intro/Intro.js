@@ -72,7 +72,60 @@ const Intro = () => {
         </Toolbar>
       
     </AppBar>
+
+    <div className='bodycon'>
+                <div className='typocon'>
+                    <div className='typocon1'>
+                        <Typography  variant='h3'>
+                        Rent a <b className='txtcol'>place</b> away from <b className='txtcol'>Home</b> in the <b className='txtcol'>Metaverse</b>
+                        </Typography> 
+                    </div> 
+                    
+                    <div className='typocon2'>
+                        <Typography  variant='h6'>
+                        We provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone.
+                        </Typography>
+                    </div>
+
+                    
+                    <div>
+                        <ButtonGroup>
+                            <TextField variant='outlined'
+                            size="small"
+                            type='text'
+                            label='search for location'
+                            color='secondary'
+                            sx={{ width: 460,}}/>
+
+<Button variant='contained' size="small" sx={{ bgcolor: '#A02279', paddingLeft: 10, paddingRight: 10, borderRadius: 0.5, marginRight: 15, }}>
+                                    Search
+                            </Button>
+
+
+                        </ButtonGroup>
+
+                       
+                    </div>
+            
+                </div>
+
+
+                <div className='imgcon'>
+                <div className='imgcon1'>
+                <img src={image4} alt="logo" />
+                <img src={image6} alt="logo" />
+                </div>
+
+                <div className='imgcon2'>
+                <img src={image3} alt="logo" />
+                <img src={image5} alt="logo" />
+                </div>
+                </div>
+
+            </div>
     </ThemeProvider>
+
+    
   )
 }
 
